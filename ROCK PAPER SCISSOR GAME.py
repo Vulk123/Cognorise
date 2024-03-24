@@ -20,4 +20,37 @@ while run :
 elif command == 'Paper':
     if command == 'Rock':
         print("Player won!")
-        p +
+        p += 1
+    else:    
+        print("Computer won!")
+        c += 1
+elif command == 'Scissor':
+    if computer_choice == 'Paper':
+        print("Player won!")
+        p += 1
+    else:
+        print("Computer won!")
+        c += 1
+elif command == 'Quit':
+    break
+else:
+    print("Wrong command! :")
+print("Player: "+ command)
+print("Computer: " + computer_choice)
+print("")
+print("Score: Computer " + str(c)+ " Player " + str(p))
+print("")
+
+
+
+
+
+
+
+
+   
+        
+        
+        
+        
+
